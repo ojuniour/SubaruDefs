@@ -666,6 +666,13 @@
 		<table name="Engine Speed" address="60d10"/>
 	</table>
 
+	<table name="Target Throttle Plate Position (Idle)" address="607c8">
+		<table name="Idle Airflow Target" address="60784"/>
+	</table>
+
+	<table name="Target Throttle Plate Position (Idle) Minimum" address="5f9ac">
+	</table>
+
 	<table name="Rev Limit (Fuel Cut)" address="5bd44">
 	</table>
 
