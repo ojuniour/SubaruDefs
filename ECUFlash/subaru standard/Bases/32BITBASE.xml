@@ -986,6 +986,27 @@
 			<data>E</data>
 		</table>
 	</table>
+	
+	<table name="Overrun Fueling Cut Counter RPM Threshold A" category="ALPHA OverRun Fueling" type="2D" level="1" scaling="RPM">
+		<description>These counters determine the RPM count before injectors cut off during overrun.</description>
+		<table name="RPM" type="Static Y Axis" elements="1">
+			<data>Low</data>
+		</table>
+	</table>
+	
+	<table name="Overrun Fueling Cut Counter RPM Threshold B" category="ALPHA OverRun Fueling" type="2D" level="1" scaling="RPM">
+		<description>These counters determine the RPM count before injectors cut off during overrun.</description>
+		<table name="RPM" type="Static Y Axis" elements="1">
+			<data>Med</data>
+		</table>
+	</table>
+	
+		<table name="Overrun Fueling Cut Counter RPM Threshold C" category="ALPHA OverRun Fueling" type="2D" level="1" scaling="RPM">
+		<description>These counters determine the RPM count before injectors cut off during overrun.</description>
+		<table name="RPM" type="Static Y Axis" elements="1">
+			<data>High</data>
+		</table>
+	</table>
 
 	<table name="Idle Airflow Min Target Decel Adder A" category="ALPHA Idle Control" type="2D" level="1" scaling="Advance(degrees)1">
 		<description>This table is added to idle airflow when the minimum activation threshold based on vehicle speed is reached</description>
