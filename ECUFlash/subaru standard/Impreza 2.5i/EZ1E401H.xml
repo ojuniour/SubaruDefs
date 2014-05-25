@@ -17,6 +17,90 @@
 
 	<include>32BITBASE</include>
 
+	<table name="Catalyst Warm Up Idle" address="ce148">
+		<table name="Coolant Temperature" address="cbdd8"/>
+		<table name="Unknown" address="ce140" elements="2"/>
+	</table>
+
+	<table name="Misfire DTC Threshold" address="c4d28">
+		<table name="Engine Load" address="c4cd4" elements="8"/>
+		<table name="Engine Speed" address="c4cf4" elements="13"/>
+	</table>
+
+	<table name="Post Cranking Airflow Initial Reference Coolant" address="c1ff8">
+		<table name="Coolant Temperature" address="c1f48"/>
+	</table>
+
+	<table name="Post Cranking Load Initial Reference Coolant" address="c2104">
+		<table name="Coolant Temperature" address="c1f48"/>
+	</table>
+
+	<table name="Ignition Timing Compensation Idle Target In Error Range A" address="ce0a0">
+		<table name="Idle Speed Error" address="ce058"/>
+		<table name="Engine Speed Delta" address="ce07c"/>
+	</table>
+
+	<table name="Ignition Timing Compensation Idle Target Out of Error Range A" address="ce03c">
+		<table name="Idle Speed Error" address="ce00c"/>
+		<table name="Idle Speed Target" address="ce030"/>
+	</table>
+
+	<table name="Ignition Timing Compensation Idle Target Load Change A" address="ce124">
+		<table name="Engine Speed Delta" address="ce0f4"/>
+		<table name="Idle Speed Target" address="ce118" elements="3"/>
+	</table>
+
+	<table name="Cluster Display Fuel Consumption Correction" address="c051c">
+	</table>
+
+	<table name="Idle Rolling in Gear Limit A" address="ce620"/>
+
+	<table name="Idle Rolling in Gear Limit B" address="ce624"/>
+
+	<table name="Idle Rolling in Gear Limit C" address="ce628"/>
+
+	<table name="Idle Rolling in Gear Limit D" address="ce62c"/>
+
+	<table name="Low Pulse Width Fuel Injector Compensation" address="c716c">
+		<table name="Injector Pulse Width" address="c714c"/>
+	</table>
+
+	<table name="Low pulse width fuel injector compensation maximum RPM" address="c6854">
+	</table>
+
+	<table name="Low pulse width fuel injector compensation maximum IPW" address="c6858">
+	</table>
+
+	<table name="Ignition Dwell" address="d114c">
+		<table name="Engine Speed" address="d1104" elements="13"/>
+		<table name="Battery Volts" address="d1138"/>
+	</table>
+
+	<table name="Requested Torque Limit A (Per Gear/Engine Speed)" address="ddc90">
+		<table name="Engine Speed" address="ddc38"/>
+		<table name="Gear" address="ddc78"/>
+	</table>
+
+	<table name="Requested Torque Limit B (Per Gear/Engine Speed)" address="ddda8">
+		<table name="Engine Speed" address="ddd50"/>
+		<table name="Gear" address="ddd90"/>
+	</table>
+
+	<table name="A/F #1 Learning Max Threshold" address="c65e4"/>
+
+	<table name="A/F #1 Learning Min Threshold" address="c65f4"/>
+
+	<table name="AF 3 CL Target Compensation Limits" address="2c4ac">
+	</table>
+
+	<table name="AF 3 Correction Limits" address="2dee8">
+	</table>
+
+	<table name="Front AF Sensor Smoothing Table" address="d11f0">
+		<table name="Smoothed MAF" address="d11d0"/>
+		<table name="Engine Load" address="d11e0"/>
+	</table>
+
 	<table name="Overrun Fueling RPM Resume Threshold" address="c8978">
 		<table name="Coolant Temperature" address="c69d8"/>
 	</table>
@@ -35,6 +119,58 @@
 
 	<table name="Overrun Fueling Cut Counter RPM Threshold C" address="c6914">
 	</table>
+
+	<table name="Idle Airflow Min Target Decel Adder A" address="cef88">
+		<table name="Engine Speed" address="cef48" elements="16"/>
+	</table>
+
+	<table name="Idle Airflow Min Target Decel Adder B" address="ceb13">
+		<table name="Engine Speed" address="ce9f4"/>
+	</table>
+
+	<table name="Idle Speed Stability A" address="cfd98">
+		<table name="Idle Speed Error" address="cfd38" elements="17"/>
+		<table name="Engine Speed Delta" address="cfd7c" elements="7"/>
+	</table>
+
+	<table name="Idle Speed Stability B" address="cfee8">
+		<table name="Idle Speed Error" address="cfe88" elements="17"/>
+		<table name="Engine Speed Delta" address="cfecc" elements="7"/>
+	</table>
+
+	<table name="Idle Airflow Min Target Decel Adder Active Veh Speed A" address="ce5c4"/>
+
+	<table name="Idle Airflow Min Target Decel Initial Idle Min Airflow A" address="ce5cc"/>
+
+	<table name="Idle Airflow Min Target Decel Initial Idle Activation Max Mode Counter" address="ce474" scaling="counterthreshold1"/>
+
+	<table name="Idle Airflow Min Target Decel Ramping Adder Decreasing" address="ce5f0"/>
+
+	<table name="Idle Airflow Min Target Decel Ramping Adder Increasing" address="ce5f4"/>
+
+	<table name="Hotstart Enrichment Decay Delay" address="c624a"/>
+
+	<table name="Hotstart Enrichment Decay Step" address="c6708"/>
+
+	<table name="Initial Hotstart Enrichment (High)" address="c66fc"/>
+
+	<table name="Hotstart High Enrichment Activation Threshold (Coolant Temperature)" address="c66ec"/>
+
+	<table name="Hotstart High Enrichment Activation Threshold (Intake Air Temperature)" address="c66f0"/>
+
+	<table name="Initial Hotstart Enrichment (Low)" address="c6700"/>
+
+	<table name="Hotstart Low Enrichment Activation Threshold (Coolant Temperature)" address="c66f4"/>
+
+	<table name="Hotstart Low Enrichment Activation Threshold (Minimum Intake Air Temperature)" address="c66f8"/>
+
+	<table name="Maximum Non-Idle Hotstart Enrichment (Post Delay)" address="c670c"/>
+
+	<table name="Hotstart Maximum Non-Idle Enrichment Delay" address="c624e"/>
+
+	<table name="Hotstart Minimum Enrichment Limit Runtime" address="c624c"/>
+
+	<table name="Hotstart Minimum Enrichment (During Delay and Runtime)" address="c6704"/>
 
 	<table name="Manifold Pressure Sensor Scaling_" address="d0aac">
 	</table>
@@ -311,6 +447,10 @@
 	<table name="Engine Load Limit (Maximum)" address="1e308">
 	</table>
 
+	<table name="Engine Load Limit B Maximum (RPM)" address="c2064">
+		<table name="Engine Speed" address="c2018" elements="19"/>
+	</table>
+
 	<table name="Engine Load Compensation A (MP)" address="c26f4">
 		<table name="Manifold Pressure" address="c2698"/>
 		<table name="Engine Speed" address="c26c4"/>
@@ -570,6 +710,15 @@
 	</table>
 
 	<table name="Radiator Fan Modes (Veh. Speed)" address="d129c">
+	</table>
+
+	<table name="Gear Determination Thresholds A" address="c1d80">
+	</table>
+
+	<table name="Gear Determination Thresholds B" address="c1d94">
+	</table>
+
+	<table name="Gear Determination Thresholds C" address="c1da8">
 	</table>
 
 	<table name="Idle Speed Target A" address="cf040">
@@ -837,5 +986,7 @@
 	<table name="(P2228) BARO. PRESSURE CIRCUIT LOW INPUT" address="78ce7"/>
 
 	<table name="(P2229) BARO. PRESSURE CIRCUIT HIGH INPUT" address="78ce6"/>
+
+	<table name="MAF Adder (CPC Multiplier)" address="c1c30"/>
 
 </rom>

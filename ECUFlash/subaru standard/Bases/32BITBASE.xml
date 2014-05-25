@@ -465,7 +465,7 @@
 		<table name="Engine Speed" type="Y Axis" elements="8" scaling="EngineSpeed(RPM)1"/>
 	</table>
 
-	<table name="Catalyst Warm Up Idle" category="Alpha - BRZ" type="3D" scaling="IgnitionTimingAdvanceCorrection(degrees)">
+	<table name="Catalyst Warm Up Idle" category="Misc" type="3D" scaling="IgnitionTimingAdvanceCorrection(degrees)">
 		<description>no description</description>
 		<table name="Coolant Temperature" type="X Axis" elements="16" scaling="CoolantTemp(DegreesF)"/>
 		<table name="Unknown" type="Y Axis" elements="3" scaling="float"/>
@@ -709,7 +709,7 @@
 		<table name="Engine Speed" type="Y Axis" elements="13" scaling="EngineSpeed(RPM)1"/>
 	</table>
 
-	<table name="Misfire DTC Threshold" category="Alpha - BRZ" type="3D" scaling="MisfireDTCThreshold">
+	<table name="Misfire DTC Threshold" category="Miscellaneous - Thresholds" type="3D" scaling="MisfireDTCThreshold">
 		<description>no description</description>
 		<table name="Engine Load" type="X Axis" elements="14" scaling="g/rev"/>
 		<table name="Engine Speed" type="Y Axis" elements="19" scaling="EngineSpeed(RPM)1"/>
