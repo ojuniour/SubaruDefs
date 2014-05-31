@@ -869,6 +869,18 @@
 			<data>Low</data>
 		</table>
 	</table>
+	
+		<table name="AF 3 CL Target Compensation Limits High" category="ALPHA AF 3 (Rear O2 Sensor)" type="2D" level="1" scaling="AF3 Lambda">
+		<table name="X" type="Static X Axis" elements="1">
+			<data>High</data>
+		</table>
+	</table>
+	
+		<table name="AF 3 CL Target Compensation Limits Low" category="ALPHA AF 3 (Rear O2 Sensor)" type="2D" level="1" scaling="AF3 Lambda">
+		<table name="X" type="Static X Axis" elements="1">
+			<data>Low</data>
+		</table>
+	</table>
 
 	<table name="AF 3 Correction Limits" category="ALPHA AF 3 (Rear O2 Sensor)" type="2D" level="1" scaling="A/FLearning#1Limits(%)">
 		<description>These limits determine the maximum AF #3 Correction (Rear O2 Sensor Feedback) applied during closed loop fueling. By setting them to zero you can disable the effect of the rear O2 sensor on closed loop fueling.</description>
