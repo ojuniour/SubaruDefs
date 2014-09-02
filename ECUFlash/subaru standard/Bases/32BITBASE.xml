@@ -6594,6 +6594,10 @@
 		<description>EVAPORATIVE EMISSION CONTROL SYSTEM PRESSURE SENSOR HIGH INPUT. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
 	</table>
 
+<table name="(P0455) EVAP EMISSION CONTROL SYSTEM LEAK DETECTED (GROSS LEAK)" category="Diagnostic Trouble Codes" type="1D" scaling="PXXXX_enable">
+<description>EVAP EMISSION CONTROL SYSTEM LEAK DETECTED (GROSS LEAK). Change to disabled to deactivate. Off-road use only.</description>
+</table>
+
 	<table name="(P0456) EVAP LEAK DETECTED (VERY SMALL)" category="Diagnostic Trouble Codes" type="1D" scaling="PXXXX enable">
 		<description>EVAPORATIVE EMISSION CONTROL SYSTEM LEAK DETECTED (VERY SMALL LEAK). To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
 	</table>
@@ -7054,6 +7058,14 @@
 		<description>EVAPORATIVE EMISSION CONT. SYS. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
 	</table>
 
+<table name="(P1458) CANISTER PURGE CONTROL SOLENOID VALVE 2 LOW" category="Diagnostic Trouble Codes" type="1D" scaling="PXXXX_enable">
+	<description>CANISTER PURGE CONTROL SOLENOID VALVE 2 LOW. Change to disabled to deactivate. Off-road use only.</description>
+</table>
+-
+<table name="(P1459) CANISTER PURGE CONTROL SOLENOID VALVE 2 HIGH" category="Diagnostic Trouble Codes" type="1D" scaling="PXXXX_enable">
+	<description>CANISTER PURGE CONTROL SOLENOID VALVE 2 HIGH. Change to disabled to deactivate. Off-road use only.</description>
+</table>
+
 	<table name="(P1491) PCV (BLOWBY) FUNCTION PROBLEM" category="Diagnostic Trouble Codes" type="1D" scaling="PXXXX enable">
 		<description>POSITIVE CRANKCASE VENTILATION (BLOWBY) FUNCTION PROBLEM. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
 	</table>
@@ -7294,6 +7306,10 @@
 		<description>BANK 1 AFR IMBALANCE. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
 	</table>
 
+<table name="(P219B) BANK 2 AFR IMBALANCE" category="Diagnostic Trouble Codes" type="1D" scaling="PXXXX_enable">
+	<description>BANK 2 AFR IMBALANCE. Change to disabled to deactivate. Off-road use only.</description>
+</table>
+
 	<table name="(P2227) BARO. PRESSURE CIRCUIT RANGE/PERF" category="Diagnostic Trouble Codes" type="1D" scaling="PXXXX enable">
 		<description>BAROMETRIC PRESSURE CIRCUIT RANGE/ PERFORMANCE. To disable this DTC, make sure the box above is unchecked. Off-road use only.</description>
 	</table>
@@ -7406,6 +7422,10 @@
 		<description>CAN LOST COMMUNICATION WITH BIU. Change to disabled to deactivate. Off-road use only.</description>
 	</table>
 
+  <table name="(U0155) LOST COMMUNICATION WITH INSTRUMENT PANEL CLUSTER (IPC) CONTROL MODULE" category="Diagnostic Trouble Codes" type="1D" scaling="PXXXX enable">
+  <description>LOST COMMUNICATION WITH INSTRUMENT PANEL CLUSTER (IPC) CONTROL MODULE. Change to disabled to deactivate. Off-road use only.</description>
+  </table>
+
 	<table name="(U0402) CAN INVALID DATA RECEIVED FROM TCM" category="Diagnostic Trouble Codes" type="1D" scaling="PXXXX enable">
 		<description>CAN INVALID DATA RECEIVED FROM TCM. Change to disabled to deactivate. Off-road use only.</description>
 	</table>
@@ -7418,6 +7438,10 @@
 		<description>CAN INVALID DATA RECEIVED FROM BIU. Change to disabled to deactivate. Off-road use only.</description>
 	</table>
 
+  <table name="(U0423) INVALID DATA RECEIVED FROM INSTRUMENT PANEL CLUSTER CONTROL MODULE" category="Diagnostic Trouble Codes" type="1D" scaling="PXXXX enable">
+    <description>INVALID DATA RECEIVED FROM INSTRUMENT PANEL CLUSTER CONTROL MODULE. Change to disabled to deactivate. Off-road use only.</description>
+  </table>
+  
 	<table name="MAF Adder (CPC Multiplier)" type="1D" level="1" scaling="%"/>
 
 	<table name="AF 3 Correction Adder (Increase)" category="ALPHA AF 3 (Rear O2 Sensor)" type="1D" level="1" scaling="AF3_Adder"/>
