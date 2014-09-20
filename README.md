@@ -1,22 +1,9 @@
-# Subaru ECU Definitions
+# Subaru ECU Definitions for BRZs / FT86 for use on Open Flash Tablet
 
-This repository is used to develop Subaru ECU definitions for use with:
-*   Romraider http://www.romraider.com
-*	ECUFlash http://www.tactrix.com
+This branch is specifically for use with the V2.* maps available for the OFT
 
-Discussion thread at RomRaider for this repo: http://www.romraider.com/forum/viewtopic.php?f=34&t=8635
-
-# Branches:
-*	Stable branch: Contains the latest NON-experimental definitions. These definitions have been thoroughly debugged and tested.
-*	Beta branch: Formerly "Experimental". Contains definitions with finalized 'bases' that are newly defined for a particular rom. Considered safe for use by advanced users.
-*	Alpha branch: Contains definitions that are under active development. **DO NOT USE THIS BRANCH UNLESS YOU ARE A DEVELOPER OR A DEVELOPER'S TESTER**
-
-Benefits of using Git:
-*	Better tracking of definition history/changes.
-*	Easier to implement standardization of new tables, scalings, descriptions, formats, etc.
-*	Ease of use for end users, no more scouring a forum to find definitions or get an updated def.
-*	Easier to collaborate and stay organized.
-*	By pointing RomRaider or ECUFlash at the local repo, you can easily switch between different branches for quick tests/comparisons.
+WARNING! DO NOT USE THESE DEFINITIONS FOR ANY ROMS OTHER THAN THE V2.* maps 
+available for the OFT! You WILL brick your ecu!
 
 #WARNING
 
